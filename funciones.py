@@ -12,6 +12,10 @@ def area_rectangulo(
     ---return---
     - area (float): es el area de mi rectangulo
     """
-area = x*y
+    area = x*y
+    return area
 
-area_rectangulo(3,4)
+altura = float(input"Introdduce el area del rectangulo: ")
+base = float(input"Introduce la base del triangulo: ")
+result = area_rectangulo(base, altura)
+print(f' El area del rectangulo es {result}')
