@@ -5,3 +5,4 @@ def mayor_edad(edad:int) -> bool:
         return 1
 e = int(input("Edad: "))
 print(mayor_edad(e))
+
