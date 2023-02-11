@@ -1,4 +1,4 @@
-import area_rectangulo 
+import Clases.area_rectangulo as area_rectangulo 
 
 
 x = float(input("Favor ingresar base: "))
