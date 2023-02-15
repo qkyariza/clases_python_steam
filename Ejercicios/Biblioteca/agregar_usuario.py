@@ -4,6 +4,7 @@ def agregar_usuario(
 ) -> dict:
     os.system("clear")
     name = input("Favor ingresar nombre: ")
+    apellido = input("Favor ingresar apellido: ")
     book = input("Favor ingresar nombre del libro: ")
     z.update({name:book})
     os.system("clear")

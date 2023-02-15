@@ -5,7 +5,7 @@ from visualizar_usuario import visualizar_usuario
 from eliminar_usuario import eliminar_usuario
 
 base_dato = {}
-os.system("clear")
+
 while True:
     def menu():
         print("\nQue desear realizar: ")
