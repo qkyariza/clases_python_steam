@@ -5,10 +5,12 @@ from visualizar_usuario import visualizar_usuario
 from eliminar_usuario import eliminar_usuario
 
 base_dato = {}
+os.system("cls")
+print("\033[1m\nBienvenido a su sistema de gestion!\033[0m")
 
 while True:
     def menu():
-        print("\nQue desear realizar: ")
+        print("\nQue deseas realizar: ")
         print("\t[1] - Para agregar usuario: ")
         print("\t[2] - Para actualizar usuario: ")
         print("\t[3] - Para visualizar todos los usuarios: ")
