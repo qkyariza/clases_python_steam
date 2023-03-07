@@ -26,13 +26,14 @@ def agregar_usuario(z:dict) -> dict:
         book = input("Favor ingresar nombre del libro: ")
         
         diccionario_interno = {
-            "\nNombre:":nombre.title(),
-            "Libro:":book.capitalize(),
-            "Fecha:":date_date,
-            "Hora:":date_time
+            # "\nNombre:":nombre.title(),
+            "\tLibro:":book.capitalize(),
+            "\tFecha:":date_date,
+            "\tHora:":date_time
             }
 
         z[nombre] = [diccionario_interno]
+        print(f"\nLibros asociados a {nombre.title()}:")
         
         for key,value in diccionario_interno.items():
             print(key + ": " + str(value))

@@ -16,6 +16,7 @@ while True:
         print("\t[3] - Para visualizar todos los usuarios: ")
         print("\t[4] - Para visualizar usuario especifico: ")
         print("\t[5] - Para eliminar usuario: ")
+        print("\t[6] - Para eliminar libro de ususario especifico: ")
         print("\t[0] - Para salir")
     
     menu()
